@@ -1,0 +1,25 @@
+body {
+	margin: 0px;
+}
+
+.main_header{
+	background-image: url("../images/crosswalk.jpg");
+	height: 100vh;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main_header img {
+	width: 463px;
+	height: 459px;
+}
+
+p {
+	max-width: 600px;
+	margin: 0 auto 20px auto;
+	text-align: center;
+	padding: 10px;
+}
