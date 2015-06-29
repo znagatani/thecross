@@ -3,7 +3,7 @@ body {
 }
 
 .main_header{
-	background-image: url("../images/hallway.jpg");
+	background-image: url("../images/hallway2.png");
 	height: 100vh;
 	background-size: cover;
 	display: flex;
@@ -13,8 +13,8 @@ body {
 }
 
 .main_header img {
-	width: 600px;
-	height: 360px;
+	width: 500px;
+	height: 390px;
 
 }
 
