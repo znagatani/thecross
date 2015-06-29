@@ -2,6 +2,15 @@ body {
 	margin: 0px;
 }
 
+.navbar li {
+	list-style: none;
+	display: inline;
+} /* to line up list horizontally */
+
+.navbar {
+	display:inline-block;
+} /*"home" is a separate UL; display both lists on the same line */
+
 .main_header{
 	background-image: url("../images/hallway1.jpg");
 	height: 100vh;
@@ -10,13 +19,13 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-}
+} /*set background image to cover the whole header, and set whole header to cover the entire viewport to create a full page landing screen. Use flexbox to center the logo*/
 
 .main_header img {
 	width: 500px;
 	height: 390px;
 
-}
+} /*adjust logo size to be porportional to itself and page*/
 
 p {
 	max-width: 940px;
@@ -24,8 +33,4 @@ p {
 	margin: 0 auto 20px auto;
 	text-align: center;
 	padding: 10px;
-}
-
-.about {
-	text-align: center;
-}
+} /*optimize paragraph size for mobile viewing*/
