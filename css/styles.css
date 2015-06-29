@@ -2,6 +2,7 @@ body {
 	margin: 0px;
 }
 
+
 .main_header{
 	background-image: url("../images/crosswalk.jpg");
 	height: 100vh;
@@ -15,6 +16,11 @@ body {
 .main_header img {
 	width: 600px;
 	height: 360px;
+
+}
+
+.rest_of_page {
+	z-index: -1;
 }
 
 p {
@@ -24,3 +30,8 @@ p {
 	text-align: center;
 	padding: 10px;
 }
+
+.about {
+	text-align: center;
+}
+testing branch
