@@ -2,9 +2,8 @@ body {
 	margin: 0px;
 }
 
-
 .main_header{
-	background-image: url("../images/crosswalk.jpg");
+	background-image: url("../images/hallway.jpg");
 	height: 100vh;
 	background-size: cover;
 	display: flex;
@@ -19,10 +18,6 @@ body {
 
 }
 
-.rest_of_page {
-	z-index: -1;
-}
-
 p {
 	max-width: 940px;
 	max-height: 600px;
@@ -34,4 +29,3 @@ p {
 .about {
 	text-align: center;
 }
-testing branch
