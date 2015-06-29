@@ -3,7 +3,7 @@ body {
 }
 
 .main_header{
-	background-image: url("../images/hallway2.png");
+	background-image: url("../images/hallway1.jpg");
 	height: 100vh;
 	background-size: cover;
 	display: flex;
