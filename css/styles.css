@@ -52,6 +52,8 @@ p {
 	margin: 0 auto 20px auto;
 	text-align: center;
 	padding: 10px;
+	font-size: 16px;
+	line-height: 24px;
 } /*optimize paragraph size for mobile viewing*/
 
 .beliefs {
@@ -84,18 +86,37 @@ div {
 div, h2 {
 	font-weight: bold;
 	text-align: center;
-	margin-top: 50px;
-}
+} /* to make headers of each section bold and centered */
 
 div, p {
 	max-height: 100%;
-}
+} /* to stop paragraphs from overflowing into other sections */
 
 a {
 	text-decoration: none;
 	color: black;
-}
+} /*to get rid of decorations over links in navbar */
 
 .no_display {
 	visibility: hidden;
 }
+
+.beliefs-font {
+	color: #171616;
+}
+
+.community-font {
+	color: #DFD7D7;
+}
+
+.outreach-font {
+	color: #222020;
+}
+
+.media-font {
+	color: #171616;
+}
+
+.staff-font {
+	color: #F4F2F2;
+} /*classes to control the font colors in each section */
