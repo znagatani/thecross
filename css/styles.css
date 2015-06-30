@@ -31,7 +31,7 @@ body {
 } /* align other buttons to the right away from the home button */
 
 .main_header{
-	background-image: url("../images/hallway1.jpg");
+	background-image: url("../images/crosswalk1.jpg");
 	height: 100vh;
 	background-size: cover;
 	display: flex;
@@ -55,25 +55,26 @@ p {
 } /*optimize paragraph size for mobile viewing*/
 
 .beliefs {
-	background-color: #a3a0a6;
+	background-color: #ABA9A9;
 	margin: 0px;
 }
 
 .community {
-	background-color: #6b6275;
+	background-color: #2A2A2A;
 	margin: 0px;
 }
 
 .outreach {
-	background-color: #F6F5EC; 
+	/* background-color: #F6F5EC; */ 
+	background-color: 
 }
 
 .media {
-	background-color: #D7D5D6;
+	background-color: #ABAAA9;
 }
 
 .staff {
-	background-color: #9FA589;
+	background-color: #010101;
 }
 
 div {
