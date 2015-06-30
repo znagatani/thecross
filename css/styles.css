@@ -2,6 +2,12 @@ body {
 	margin: 0px;
 }
 
+.navigation {
+	background-color: #FFFFFF;
+	position: fixed;
+	width: 100%;
+}
+
 .navbar li {
 	list-style: none;
 	display: inline;
