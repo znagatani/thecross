@@ -1,0 +1,44 @@
+body {
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+} /* linked to google fonts */
+
+.navigation {
+	background-color: #FFFFFF;
+	position: fixed;
+	width: 100%;
+} /*so bg color is white, navbar width stretches with the bg image (with the body), and is fixed at the top of the screen as you scroll*/
+
+.navbar li {
+	list-style: none;
+	display: inline;
+	padding: 20px;
+	margin-right: 10px;
+	font-weight: bold;
+} /* to line up list horizontally */
+
+#navhome {
+	margin-left: 10px;
+}
+
+.navbar {
+	display:inline-block;
+} /*"home" is a separate UL; display both lists on the same line */
+
+.nav_pages {
+	float: right;
+	margin-right: 20px;
+} /* align other buttons to the right away from the home button */
+
+a {
+	text-decoration: none;
+	color: black;
+} /*to get rid of decorations over links in navbar */
+
+h1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
