@@ -1,7 +1,7 @@
 body {
 	margin: 0px;
 	font-family: 'Open Sans', sans-serif;
-}
+} /* linked to google fonts */
 
 .navigation {
 	background-color: #FFFFFF;
@@ -53,3 +53,29 @@ p {
 	text-align: center;
 	padding: 10px;
 } /*optimize paragraph size for mobile viewing*/
+
+.beliefs {
+	background-color: #a3a0a6;
+	margin: 0px;
+}
+
+.community {
+	background-color: #6b6275;
+	margin: 0px;
+}
+
+.outreach {
+	background-color: #F6F5EC; 
+}
+
+.media {
+	background-color: #D7D5D6;
+}
+
+.staff {
+	background-color: #9FA589;
+}
+
+div {
+	border: 1px solid transparent;
+} /*a bunch of containers for each section below the fold, so that each section can have its own background color. Transparent border eliminates white space between containers*/
