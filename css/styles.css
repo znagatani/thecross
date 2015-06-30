@@ -80,3 +80,22 @@ p {
 div {
 	border: 1px solid transparent;
 } /*a bunch of containers for each section below the fold, so that each section can have its own background color. Transparent border eliminates white space between containers*/
+
+div, h2 {
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+}
+
+div, p {
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.no_display {
+	visibility: hidden;
+}
