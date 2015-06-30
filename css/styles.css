@@ -83,6 +83,7 @@ div {
 	border: 1px solid transparent;
 } /*a bunch of containers for each section below the fold, so that each section can have its own background color. Transparent border eliminates white space between containers*/
 
+/* base hex color for color scheme is #464646 */
 div, h2 {
 	font-weight: bold;
 	text-align: center;
