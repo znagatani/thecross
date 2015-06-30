@@ -120,3 +120,8 @@ a {
 .staff-font {
 	color: #F4F2F2;
 } /*classes to control the font colors in each section */
+
+.underline_link {
+	text-decoration: underline;
+	color: inherit;
+}
