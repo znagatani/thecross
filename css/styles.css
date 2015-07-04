@@ -7,6 +7,7 @@ body {
 	background-color: #FFFFFF;
 	position: fixed;
 	width: 100%;
+	opacity: .5;
 } /*so bg color is white, navbar width stretches with the bg image (with the body), and is fixed at the top of the screen as you scroll*/
 
 .navbar li {
@@ -125,4 +126,14 @@ a {
 .underline_link {
 	text-decoration: underline;
 	color: inherit;
+} /*no decorationg on the links, and make them inherit whatever color font their parent element has*/
+
+.big-font{
+	font-size: 500px;
+	transition: 3s;
 }
+
+.tall-div {
+	min-height: 600px;
+}
+
